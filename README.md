@@ -7,7 +7,7 @@ A interface gráfica foi construída em **Tkinter**, permitindo uma interação 
 
 ## 📸 Demonstração da Interface
 
-![Interface do Sistema]<img width="502" height="683" alt="image" src="https://github.com/user-attachments/assets/b9e02c65-5d4c-45d9-9cef-efd7c3bdad53" />
+<img width="502" height="683" alt="image" src="https://github.com/user-attachments/assets/b9e02c65-5d4c-45d9-9cef-efd7c3bdad53" />
 
 
 Na interface, o usuário insere os seguintes dados:
