@@ -35,3 +35,10 @@ Após preencher os campos e clicar em **"Prever Chance"**, o sistema retorna a p
    ```bash
    git clone https://github.com/LucasCerqueira1244/Machine-Learning-com-Keras.git
    cd Machine-Learning-com-Keras
+
+## 📂 Estrutura do Projeto
+📦 Machine-Learning-com-Keras
+ ┣ 📜 predict_admit.py                 # Código principal com Tkinter
+ ┣ 📜 modelo_treinado.keras            # Modelo Keras treinado
+ ┣ 📜 requirements.txt                 # Dependências do projeto
+ ┣ 📜 README.md                        # Documentação do projeto
