@@ -20,6 +20,8 @@ Na interface, o usuário insere os seguintes dados:
 
 Após preencher os campos e clicar em **"Prever Chance"**, o sistema retorna a probabilidade de admissão em percentual.
 
+<img width="498" height="677" alt="image" src="https://github.com/user-attachments/assets/7c17d059-cd73-4e4a-aee8-5554986fe0ca" />
+
 ---
 
 ## 🚀 Tecnologias Utilizadas
