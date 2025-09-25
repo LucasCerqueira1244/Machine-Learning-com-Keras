@@ -1,99 +1,37 @@
-Predição de Chance de Admissão - Machine Learning com Keras
+# 🎓 Predição de Chance de Admissão com Keras e Tkinter
 
-Este projeto é uma aplicação em Python que utiliza um modelo treinado em Keras/TensorFlow para prever a Chance of Admit de um candidato com base em suas características acadêmicas. O projeto inclui uma interface gráfica desenvolvida com Tkinter para facilitar a interação do usuário.
+Este projeto utiliza um **modelo de Machine Learning treinado em Keras** para prever a **Chance of Admit** de um candidato com base em suas características acadêmicas.  
+A interface gráfica foi construída em **Tkinter**, permitindo uma interação simples e intuitiva.
 
-📌 Funcionalidades
+---
 
-Carrega um modelo pré-treinado em Keras (modelo_chance_admit.h5).
+## 📸 Demonstração da Interface
 
-Solicita ao usuário os valores das características do candidato.
-
-Valida automaticamente os valores inseridos.
-
-Realiza a previsão usando o modelo.
-
-Exibe a chance prevista de admissão em percentual, com uma barra de progresso visual.
-
-🛠 Tecnologias Utilizadas
-
-Python 3.11
-
-TensorFlow / Keras
-
-NumPy
-
-Tkinter
-
-📂 Estrutura do Projeto
-predicao_chance_admit/
-│
-├── modelo_treinado.keras   # Modelo treinado em Keras
-├── predict_admit.py        # Código principal
-├── README.md               # Documentação do projeto
-└── requirements.txt        # Dependências do projeto
-
-⚙️ Instalação
-
-Clone este repositório:
-
-git clone https://github.com/LucasCerqueira1244/Machine-Learning-com-Keras.git
-cd predicao_chance_admit
+![Interface do Sistema]<img width="502" height="683" alt="image" src="https://github.com/user-attachments/assets/b9e02c65-5d4c-45d9-9cef-efd7c3bdad53" />
 
 
-Crie um ambiente virtual:
+Na interface, o usuário insere os seguintes dados:
+- **Nota GRE**
+- **Nota TOEFL**
+- **Avaliação da Universidade**
+- **SOP (Statement of Purpose)**
+- **LOR (Letter of Recommendation)**
+- **CGPA (Cumulative GPA)**
 
-python -m venv venv
+Após preencher os campos e clicar em **"Prever Chance"**, o sistema retorna a probabilidade de admissão em percentual.
 
+---
 
-Ative o ambiente virtual:
+## 🚀 Tecnologias Utilizadas
+- Python 3.11+
+- TensorFlow / Keras
+- Tkinter (para GUI)
 
-Windows
+---
 
-.\venv\Scripts\activate
+## ⚙️ Como Executar o Projeto
 
-
-Mac/Linux
-
-source venv/bin/activate
-
-
-Instale as dependências:
-
-pip install -r requirements.txt
-
-
-Certifique-se de ter o arquivo modelo_treinado.keras na pasta do projeto.
-
-🚀 Como Executar
-
-No terminal, dentro da pasta do projeto:
-
-python predict_admit.py
-
-
-Isso abrirá a interface gráfica, onde você poderá inserir os dados do candidato e obter a previsão da chance de admissão.
-
-🖥 Uso
-
-Na interface, preencha os campos:
-
-Nota GRE (0 a 340)
-
-Nota TOEFL (0 a 120)
-
-Avaliação da Universidade (1 a 5)
-
-SOP (1 a 5)
-
-LOR (1 a 5)
-
-CGPA (0 a 10)
-
-Pesquisa (0 = Não, 1 = Sim)
-
-Clique em "Prever Chance" para gerar a previsão. O resultado aparecerá na tela e será exibido na barra de progresso.
-
-📄 Licença
-
-Este projeto está licenciado sob a Licença MIT — consulte o arquivo LICENSE
- para mais detalhes.
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/LucasCerqueira1244/Machine-Learning-com-Keras.git
+   cd Machine-Learning-com-Keras
