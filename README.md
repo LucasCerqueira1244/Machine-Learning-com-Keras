@@ -36,8 +36,23 @@ Após preencher os campos e clicar em **"Prever Chance"**, o sistema retorna a p
    git clone https://github.com/LucasCerqueira1244/Machine-Learning-com-Keras.git
    cd Machine-Learning-com-Keras
 
+Crie um ambiente virtual e ative
+
+python -m venv venv
+# Windows (PowerShell)
+.\venv\Scripts\activate
+
+Instale as dependências
+
+pip install -r requirements.txt
+
+Execute o programa
+
+python predict_admin.py
+
 ## 📂 Estrutura do Projeto
 📦 Machine-Learning-com-Keras
+
  ┣ 📜 predict_admit.py                 # Código principal com Tkinter
  
  ┣ 📜 modelo_treinado.keras            # Modelo Keras treinado
@@ -45,4 +60,9 @@ Após preencher os campos e clicar em **"Prever Chance"**, o sistema retorna a p
  ┣ 📜 requirements.txt                 # Dependências do projeto
  
  ┣ 📜 README.md                        # Documentação do projeto
+
+
+## 📖 Objetivo do Trabalho
+
+Este projeto foi desenvolvido como parte da disciplina de Machine Learning, com o objetivo de aplicar um modelo treinado em Keras em um programa real que interaja com o usuário e forneça previsões personalizadas.
  
